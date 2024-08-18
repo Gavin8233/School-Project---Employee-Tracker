@@ -73,7 +73,7 @@ static void viewDesiredTasks(std::map<int, user>& users) {
 static int options(user& activeUser, std::map<int, user>& users) {
 
 	int userChoice = employee::getIdx_AndValidateInput(
-		"\n--TYPE -1 TO LOGOUT\n\n1.) View employees\n2.) View desired user tasks(by id)\n\nChoose option: )");
+		"\n--TYPE -1 TO LOGOUT\n\n1.) View employees\n2.) View desired user tasks(by id)\n\nChoose option: ");
 
 	switch (userChoice) {
 
